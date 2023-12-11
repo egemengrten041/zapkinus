@@ -1,0 +1,93 @@
+body{
+    margin-bottom: 100px;
+}
+
+
+*{
+
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.navbar{
+    
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222222;
+    color: whitesmoke;
+    flex-direction: row;
+}
+ nav a{
+    position: relative;
+    right: 80px;
+    cursor: pointer;
+    transition: 0.8s;
+    text-decoration: none;
+    color: whitesmoke;
+}
+h2{
+    
+    cursor: pointer;
+    transition: 0.8s;
+}
+nav a:hover{
+    
+    color: blue;
+}
+h2:hover{
+    color: blue;
+}
+p{
+    display: inline;
+}
+  span h1{
+    text-align: center;
+  }
+
+#resim1{
+    border-radius: 50%;
+    border: solid 1px blue;
+    position: relative;
+    bottom: 58px;
+}
+h1{
+    
+    position: relative;
+    bottom: 50px;
+}
+.ege{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 75%;
+    height: 400px;
+    box-shadow: -10px 10px 10px 10px black;
+   
+}
+
+.biso{margin: auto;
+    display: block;
+    text-align: center;
+    width: 75%;
+    height: 400px;
+    box-shadow: -10px 10px 10px 10px black;}
+
+    .foot{
+        text-decoration: none;
+        
+    position: relative;
+    top: 100px;
+     height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222222;
+    color: whitesmoke;
+    flex-direction: row;
+    }
